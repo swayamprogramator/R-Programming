@@ -7,7 +7,7 @@ x<-array(seq(4.8,0.1,length.out=4*2*6),dim = c(4,2,6),dimnames = list(r_name,c_n
 #2
 y<-matrix(c(x[4,2,],x[1,2,]),nrow = 6, ncol = 2 )
 
-z<-array(rep(c(y[2,]),times=4),dim=c(2,2,2))
+z<-array(rep(c(y[2,]),times=4),dim=c(2,2,2,3))
 print(z)
 
 
