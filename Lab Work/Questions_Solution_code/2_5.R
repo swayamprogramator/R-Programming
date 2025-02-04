@@ -13,7 +13,6 @@ z<-array(rep(c(y[2,]),times=4),dim=c(2,2,2))
 
 #4
 new_array<-x[,,-6]
-
 new_array[c(2,4),2,c(1,3,5)]=-99
 print(new_array)
 
