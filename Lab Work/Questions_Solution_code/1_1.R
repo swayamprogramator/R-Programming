@@ -3,7 +3,7 @@
 x<-16
 #Square
 print(x^2)
-print(x*X)
+print(x*x)
 print(x**2)
 #square root
 print(sqrt(x))
