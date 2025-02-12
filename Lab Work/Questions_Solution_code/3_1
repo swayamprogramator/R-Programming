@@ -1,0 +1,4 @@
+#3_1->Confirm the specific locations of elements equal to 0 int the 10x10 identity matrix I10
+I10<-diag(10)
+position<-which(I10==0,arr.ind = T)
+print(position)
