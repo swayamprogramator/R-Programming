@@ -1,0 +1,9 @@
+#3_2->Store this vector of 10values: foo<-c(7,5,6,1,2,10,8,3,8,2).Then do th following
+#(i)->Extract the elemnt greater than or equal to 5, storing result as bar.
+#(ii)->Display the vector containing those elements from foo that remain after omitting all elements that are greater than or qual to 5.
+
+foo<-c(7,5,6,1,2,10,8,3,8,2)
+bar<-foo[foo>=5]
+print(bar)
+
+print(foo[-which(foo>=5)])
